@@ -50,10 +50,9 @@ A full-stack web application for discovering and exploring Pokémon. Built with 
 
 ```
 pokemon-app/
+├── backend-rails/
 ├── backend/
-│   ├── server.js          # Express server
-│   ├── package.json
-│   └── .env.example
+|   
 ├── frontend/
 │   ├── src/
 │   │   ├── components/    # React components
@@ -75,31 +74,23 @@ pokemon-app/
 
 ## Quick Start / Testing
 
-### Option 1: Automated Setup Script
-
-Run the setup script (installs dependencies and creates necessary files):
-
-```bash
-./test-app.sh
-```
-
-### Option 2: Manual Setup
+### Option 1: Manual Setup
 
 #### Backend Setup
 
 1. Navigate to the backend directory:
 ```bash
-cd backend
+cd backend-rails
 ```
 
 2. Install dependencies:
 ```bash
-npm install
+bundle install
 ```
 
 3. Start the server:
 ```bash
-npm start
+rails s
 ```
 
 The backend will run on `http://localhost:3001`
@@ -136,8 +127,6 @@ The frontend will run on `http://localhost:3000` and open automatically in your 
 4. Login with credentials above
 5. Browse Pokémon, search, sort, and click on any Pokémon to see details
 
-For comprehensive testing instructions, see [TESTING.md](./TESTING.md)
-
 ### Important Notes
 - **Both servers must be running** for the app to work
 - Backend must be started **before** frontend
@@ -156,6 +145,7 @@ For comprehensive testing instructions, see [TESTING.md](./TESTING.md)
 4. **View Details**: Click on any Pokémon card to see detailed information
 
 5. **Navigate**: Use the back button to return to the list
+
 
 ## API Endpoints
 
