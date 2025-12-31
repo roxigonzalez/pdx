@@ -1,0 +1,14 @@
+{
+  "name": "pokemon-app",
+  "version": "1.0.0",
+  "description": "Full-stack Pokémon application",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "dev:backend": "cd backend && npm run dev"
+  },
+  "keywords": ["pokemon", "react", "express"],
+  "author": "",
+  "license": "ISC"
+}
