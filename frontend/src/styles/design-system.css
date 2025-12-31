@@ -1,0 +1,81 @@
+:root {
+  /* Primary Colors */
+  --color-primary: #DC0A2D;
+  
+  /* Grayscale Colors */
+  --color-gray-dark: #212121;
+  --color-gray-medium: #666666;
+  --color-gray-light: #E0E0E0;
+  --color-background: #EFEFEF;
+  --color-white: #FFFFFF;
+  
+  /* Pokémon Type Colors */
+  --color-type-bug: #A7B723;
+  --color-type-dark: #75574C;
+  --color-type-dragon: #7037FF;
+  --color-type-electric: #F9CF30;
+  --color-type-fairy: #E69EAC;
+  --color-type-fighting: #C12239;
+  --color-type-fire: #F57D31;
+  --color-type-flying: #A891EC;
+  --color-type-ghost: #70559B;
+  --color-type-normal: #AAA67F;
+  --color-type-grass: #74CB48;
+  --color-type-ground: #DEC16B;
+  --color-type-ice: #9AD6DF;
+  --color-type-poison: #A43E9E;
+  --color-type-psychic: #FB5584;
+  --color-type-rock: #B69E31;
+  --color-type-steel: #B7B9D0;
+  --color-type-water: #6493EB;
+  
+  /* Typography */
+  --font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  
+  /* Font Sizes */
+  --font-size-title: 24px;
+  --font-size-subtitle-3: 10px;
+  --font-size-subtle-1: 10px;
+  --font-size-subtle-2: 12px;
+  --font-size-body-1: 14px;
+  
+  /* Line Heights */
+  --line-height-title: 32px;
+  --line-height-subtitle-3: 16px;
+  --line-height-subtle-1: 16px;
+  --line-height-subtle-2: 16px;
+  --line-height-body-1: 16px;
+  
+  /* Font Weights */
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  
+  /* Shadows */
+  --shadow-drop: 0px 3px 12px 3px rgba(0, 0, 0, 0.2);
+  --shadow-inner: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
+  
+  /* Border Radius */
+  --border-radius-small: 8px;
+  --border-radius-medium: 12px;
+  --border-radius-large: 16px;
+}
+
+/* Type Color Map - JavaScript helper */
+.type-bug { --type-color: var(--color-type-bug); }
+.type-dark { --type-color: var(--color-type-dark); }
+.type-dragon { --type-color: var(--color-type-dragon); }
+.type-electric { --type-color: var(--color-type-electric); }
+.type-fairy { --type-color: var(--color-type-fairy); }
+.type-fighting { --type-color: var(--color-type-fighting); }
+.type-fire { --type-color: var(--color-type-fire); }
+.type-flying { --type-color: var(--color-type-flying); }
+.type-ghost { --type-color: var(--color-type-ghost); }
+.type-normal { --type-color: var(--color-type-normal); }
+.type-grass { --type-color: var(--color-type-grass); }
+.type-ground { --type-color: var(--color-type-ground); }
+.type-ice { --type-color: var(--color-type-ice); }
+.type-poison { --type-color: var(--color-type-poison); }
+.type-psychic { --type-color: var(--color-type-psychic); }
+.type-rock { --type-color: var(--color-type-rock); }
+.type-steel { --type-color: var(--color-type-steel); }
+.type-water { --type-color: var(--color-type-water); }
